@@ -43,7 +43,7 @@ class Tag:
             return opening + internal + ending
         else:
             if self.is_single:
-                return "        <{tag} {attrs}> \n".format(tag=self.tag, attrs=attrs)
+                return "        <{tag} {attrs}/> \n".format(tag=self.tag, attrs=attrs)
             else:
                 if attrs:
                     return "    <{tag} {attrs}>{text}</{tag}> \n".format(tag=self.tag, attrs=attrs, text=self.text)

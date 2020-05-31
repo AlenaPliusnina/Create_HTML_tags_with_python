@@ -7,7 +7,8 @@ class HTML:
         return self
 
     def __exit__(self, *args):
-        with open('test.html', 'w') as f:
+        # Write to file
+        with open(self.output, 'w') as f:
             f.write("<html>\n")
             for child in self.children:
                 f.write(str(child))
