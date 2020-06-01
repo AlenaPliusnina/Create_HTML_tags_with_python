@@ -21,7 +21,9 @@ from TopLevelTag import TopLevelTag
 
 
 if __name__ == "__main__":
-    with HTML(output="test.html") as doc:
+    # If you want to add html code to the file (test.html) replace output=None with output="test.html"
+    # Если Вы хотите добавить html код в файл (test.html) замените output=None на output="test.html"
+    with HTML(output=None) as doc:
         with TopLevelTag("head") as head:
             with Tag("title") as title:
                 title.text = "hello"
