@@ -1,5 +1,6 @@
-""" Adding html code to a file test.html (Добавление кода html в файл test.html)
-
+""" Adding html code to a file test.html (Добавление кода html в файл test.html) or output it to the console
+    Добавление html кода в файл test.html или вывод его в консоль
+    
 <html>
 <head>
   <title>hello</title>
