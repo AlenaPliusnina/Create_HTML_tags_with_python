@@ -14,4 +14,4 @@
 
 3. Вывод производится на консоль.
 
-![Иллюстрация к проекту](https://github.com/AlenaPliusnina/HTML_add_B3.13/blob/master/screenshoots/html.png)
+![Иллюстрация к проекту](https://github.com/AlenaPliusnina/HTML_add_B3.13/blob/master/screenshots/html.png)
